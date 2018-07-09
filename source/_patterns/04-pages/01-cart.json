@@ -1,0 +1,45 @@
+{
+    "pageTitle" : "You Have 2 Items In Your Cart",
+    "stripeList" : [
+        {
+            "imgLandscape" : {
+                "src": "../../../images/woman-in-yellow-hides-face.jpg",
+                "alt": "woman in sweater"
+            },
+            "headline" : "Striped Wool Sweater",
+            "field" : {
+                "styleModifier" : "c-field--small",
+                "value" : "1",
+                "label" : "Quantity"
+            },
+            "cartPrice" : {
+                "label" : "Price",
+                "meta" : "$90"
+            }
+        },
+        {
+            "imgLandscapeSrc" :"../../../images/woman-in-yellow-hides-face.jpg",
+            "imgLandscapeAlt": "woman in sweater",
+            "headline" : "Striped Wool Sweater",
+            "field" : {
+                "styleModifier" : "c-field--small",
+                "value" : "1",
+                "label" : "Quantity"
+            },
+            "cartPrice" : {
+                "label" : "Price",
+                "meta" : "$90"
+            }
+        }
+    ],
+    "totalPrice" : {
+        "label" : "Total",
+        "number" : "$180"
+    },
+    "checkoutButton" : {
+        "buttonTag" : false,
+        "linkTag" : true,
+        "url" : "link.pages-checkout",
+        "buttonText" : "Checkout"
+    }
+}

@@ -1,0 +1,33 @@
+{
+	"pageTitle" : "Striped Wool Sweater",
+	"imgLandscapeSrc" : "../../images/woman-in-yellow-hides-face.jpg",
+	"imgLandscapeAlt" : "woman in striped sweater",
+	"htmlText" : "<p>Orange and white sweater made from 100% wool and stylish for those brisk Fall and Winter months</p><p>This sweater is made in the USA and is 100% wool. It comes in small, medium, large, and XL.</p>",
+	"selectSection" : {
+		"label" : "Choose a Size",
+		"selectOptions" : [
+	        {
+	            "option" : "Small"
+	        },
+	        {
+	            "option" : "Medium"
+	        },
+	        {
+	            "option" : "Large"
+	        },
+			{
+	            "option" : "XL"
+	        }
+	    ]
+	},
+	"priceSection" : {
+		"label" : "$90"
+	},
+	"addToCart" : {
+		"buttonTag" : false,
+		"linkTag" : true,
+		"url" : "link.pages-cart",
+		"buttonText" : "Add To Cart"
+	}
+
+}

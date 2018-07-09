@@ -1,0 +1,45 @@
+{
+	"pageTitle" : "Women's Fashion",
+	"stackedBlockSection" : {
+		"styleModifier" : "l-grid l-grid--3up",
+		"stackedBlockList": [
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/woman-blue-top.jpg",
+				"imgLandscapeAlt" : "woman in tank top",
+				"headline" : "Blue Tank Top",
+				"excerpt" : "Sleek but elegant blue tank top for a night on the town or a more formal dinner",
+				"label" : "$50"
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/woman-beach-towel.jpg",
+				"imgLandscapeAlt": "woman and beach towel",
+				"headline" : "White Cover-Up",
+				"excerpt" : "Basic, but stylish cover-up for your fun trips to the beach",
+				"label" : "$75"
+			}
+		]
+	},
+	"paginationList" : [
+        {
+			"url" : "link.pages-category",
+            "number" : "Prev"
+        },
+        {
+			"url" : "link.pages-category",
+            "number" : "1"
+        },
+        {
+			"itemModifier" : "is-active",
+            "number" : "2"
+        },
+        {
+			"itemModifier" : "is-disabled",
+            "number" : "Next"
+        }
+    ]
+}

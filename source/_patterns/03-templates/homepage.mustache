@@ -1,0 +1,28 @@
+{{> organisms-header }}
+<main role="main">
+
+	<div class="l">
+		{{# hero }}
+			{{> molecules-hero }}
+		{{/ hero }}
+
+		{{# toutSection }}
+		{{> organisms-tout-list }}
+		{{/ toutSection }}
+
+		{{# latestPosts }}
+		<section class="c-section">
+			{{# sectionTitle}}
+			<h2 class="c-section__title">{{ sectionTitle }}</h2>
+			{{/ sectionTitle }}
+
+			{{> organisms-stacked-block-list }}
+
+		</section><!--end section-->
+		{{/ latestPosts }}
+
+	</div>
+
+
+</main>
+{{> organisms-footer }}

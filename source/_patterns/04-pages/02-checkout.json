@@ -1,0 +1,55 @@
+{
+    "fields" : [
+        {
+            "field" : {
+                "label" : "Name"
+            }
+        },
+        {
+            "field" : {
+                "label" : "Address"
+            }
+        },
+        {
+            "field" : {
+                "label" : "City"
+            }
+        },
+        {
+            "field" : {
+                "label" : "State"
+            }
+        },
+        {
+            "field" : {
+                "label" : "Zip Code"
+            }
+        },
+        {
+            "field" : {
+                "label" : "Zip Code"
+            }
+        },
+        {
+            "field" : {
+                "label" : "Credit Card Number"
+            }
+        },
+        {
+            "field" : {
+                "label" : "Expiration Date"
+            }
+        },
+        {
+            "field" : {
+                "label" : "CVV"
+            }
+        }
+    ],
+    "formButton" : {
+        "buttonTag" : false,
+        "linkTag" : true,
+        "url" : "link.pages-confirmation",
+        "buttonText": "Submit Payment"
+    }
+}

@@ -1,0 +1,54 @@
+{
+	"pageTitle" : "Men's Fashion",
+	"stackedBlockSection" : {
+		"styleModifier" : "l-grid l-grid--3up",
+		"stackedBlockList": [
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/man-watch.jpg",
+				"imgLandscapeAlt": "mountain and lake",
+				"headline" : "Slim-Fit Dotted Shirt",
+				"excerpt" : "This slim-fit button-down will fit you well while you stroll around the city",
+				"label" : "$80"
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/man-flannel.jpg",
+				"imgLandscapeAlt" : "red mountains",
+				"headline" : "Classic Flannel",
+				"excerpt" : "This quintessential flannel is perfect for long winter nights or a couple drinks at the bar",
+				"label" : "$80"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/man-after-haircut.jpg",
+				"imgLandscapeAlt" : "red mountains",
+				"headline" : "Casual Jacket",
+				"excerpt" : "This durable polyester jacket is great for everyday use no matter what time of year",
+				"label" : "$160"
+			}
+		]
+	},
+	"paginationList" : [
+        {
+			"url" : "link.pages-category-men",
+            "number" : "Prev"
+        },
+        {
+			"url" : "link.pages-category-men",
+            "number" : "1"
+        },
+        {
+			"itemModifier" : "is-active",
+            "number" : "2"
+        },
+        {
+			"itemModifier" : "is-disabled",
+            "number" : "Next"
+        }
+    ]
+}

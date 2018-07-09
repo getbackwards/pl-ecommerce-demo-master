@@ -1,0 +1,73 @@
+{
+	"title" : "Home Page",
+	"bodyClass": "home",
+	"emergency" : false,
+	"hero" : {
+		"imgHeroSrc": "../../images/smiling-man-woman-pug.jpg",
+		"imgHeroAlt": "Forest"
+	},
+    "headline" :  "Check out the Winter Collection",
+	"toutSection" : {
+		"styleModifier" : "l-grid--3up",
+		"toutList" : [
+			{
+				"url": "link.pages-category",
+				"headline":  "Women's fashion",
+				"imgLandscapeSrc" : "../../images/woman-outside-brownstone.jpg",
+				"imgLandscapeAlt" : "Woman in sweater"
+			},
+			{
+				"url": "link.pages-category",
+				"headline": "Men's fashion",
+				"imgLandscapeSrc" : "../../images/smiling-man-in-formalwear.jpg",
+				"imgLandscapeAlt" : "Man in formalwear"
+			},
+			{
+				"url": "link.pages-category",
+				"headline": "Kid's Fashion",
+				"imgLandscapeSrc" : "../../images/father-daughter-fashion.jpg",
+				"imgLandscapeAlt" : "Child with father"
+			}
+	    ]
+	},
+	"inset-blocks" : [
+		{
+			"headline" : "This is the headline for the inset block"
+		}
+	],
+	"latestPosts" : {
+		"styleModifier" : "l-grid l-grid--3up",
+		"sectionTitle": "Featured Items",
+		"stackedBlockList": [
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/woman-in-yellow-hides-face.jpg",
+				"imgLandscapeAlt" : "red mountains",
+				"headline" : "Women's Striped Sweater",
+				"excerpt" : "Orange and white sweater made from 100% wool and stylish for those brisk Fall and Winter months",
+				"label" : "$90"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/casual-mens-outerwear.jpg",
+				"imgLandscapeAlt" : "road with trees",
+				"headline" : "Men's Gray Jacket",
+				"excerpt" : "Down jacket great for days when a winter coat is too heavy. Comes in gray(shown) or blue",
+				"label" : "$250"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/casual-boys-fashion.jpg",
+				"imgLandscapeAlt" : "mountain and lake",
+				"headline" : "Boys Jeans",
+				"excerpt" : "Denim jeans for kids. Comes in khaki(shown) or blue",
+				"label" : "$80"
+
+			}
+		],
+		"btnText" : "View All Posts"
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"pageTitle" : "Kid's Fashion",
+	"stackedBlockSection" : {
+		"styleModifier" : "l-grid l-grid--3up",
+		"stackedBlockList": [
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/father-daughter-fashion.jpg",
+				"imgLandscapeAlt": "daughter and father",
+				"headline" : "Kid's Leather Jacket",
+				"excerpt" : "Your kid will look as hip as you in this 100% real leather jacket",
+				"label" : "$110"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/casual-boys-fashion.jpg",
+				"imgLandscapeAlt" : "boy sitting on floor",
+				"headline" :  "Boys Jeans",
+				"excerpt" :  "Denim jeans for kids. Comes in khaki(shown) or blue",
+				"label" : "$70"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/kid-in-dress.jpg",
+				"imgLandscapeAlt" : "girl in cherry dress",
+				"headline" : "Girl's Cherry Dress",
+				"excerpt" : "Blue dress with cherry print",
+				"label" : "$80"
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/kid-smiling.jpg",
+				"imgLandscapeAlt" : "girl in cat leggings",
+				"headline" : "Kitty Cat Leggings",
+				"excerpt" :  "Gray leggings with two friendly cat faces on both knees.",
+				"label" : "$50"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/kid-striped-dress.jpg",
+				"imgLandscapeAlt" : "girl in striped dress",
+				"headline" : "Striped Dress",
+				"excerpt" : "This blue and white dress is perfect for playing outside in the summer",
+				"label" : "$100"
+			}
+		]
+	},
+	"paginationList" : [
+        {
+			"itemModifier" : "is-disabled",
+            "number" : "Prev"
+        },
+        {
+			"itemModifier" : "is-active",
+            "number" : "1"
+        },
+        {
+			"itemModifier" : "is-disabled",
+            "number" : "Next"
+        }
+    ]
+}

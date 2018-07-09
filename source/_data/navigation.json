@@ -1,0 +1,41 @@
+{
+    "primaryNav" : {
+        "navItems" : [
+            {
+                "url" : "link.pages-category",
+                "label" : "Women"
+            },
+            {
+                "url" : "link.pages-category-men",
+                "label" : "Men"
+            },
+            {
+                "url" : "link.pages-category-kids",
+                "label" : "Kids"
+            },
+            {
+                "styleModifier" : "c-primary-nav__item--highlight",
+                "url" : "link.pages-cart",
+                "label" : "Cart"
+            }
+        ]
+    },
+    "footerNav" : [
+        {
+            "url" : "link.pages-category",
+            "label" : "Women"
+        },
+        {
+            "url" : "link.pages-category-men",
+            "label" : "Men"
+        },
+        {
+            "url" : "link.pages-category-kids",
+            "label" : "Kids"
+        },
+        {
+            "url" : "link.pages-category",
+            "label" : "Checkout"
+        }
+    ]
+}

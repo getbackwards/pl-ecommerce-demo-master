@@ -1,0 +1,109 @@
+{
+	"pageTitle" : "Men's Fashion",
+	"stackedBlockSection" : {
+		"styleModifier" : "l-grid l-grid--3up",
+		"stackedBlockList": [
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/smiling-man-in-formalwear.jpg",
+				"imgLandscapeAlt" : "red mountains",
+				"headline" : "Dark Gray Suit",
+				"excerpt" : "Classy suit that is bound to impress at interviews, weddings, or just a night out.",
+				"label" : "$90"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/casual-mens-outerwear.jpg",
+				"imgLandscapeAlt" : "road with trees",
+				"headline" : "Gray Jacket",
+				"excerpt" : "This sleek gray jacket is the perfect match for a Fall day out and about",
+				"label" : "$250"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/man-light-jacket.jpg",
+				"imgLandscapeAlt" : "road with trees",
+				"headline" : "Blue Two-Toned Rain Jacket",
+				"excerpt" : "This weatherproof jacket is great for those rainy Monday mornings",
+				"label" : "$250"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/man-brick-wall.jpg",
+				"imgLandscapeAlt" : "mountain and lake",
+				"headline" : "Gray Long-Sleeved Shirt",
+				"excerpt" : "This comfortable long-sleeved shirt will is great for lounging in your studio apartment",
+				"label" : "$80"
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/man-floral-shirt.jpg",
+				"imgLandscapeAlt" : "red mountains",
+				"headline" : "Modern Button-Down Shirt",
+				"excerpt" : "This modern designer button-down shirt will make you fit right into the urban lifestyle",
+				"label" : "$90"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/man-stoop.jpg",
+				"imgLandscapeAlt" : "road with trees",
+				"headline" : "Black Long-Sleeved Shirt",
+				"excerpt" : "Great for everyday wear and tear throughout the day",
+				"label" : "$250"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/man-looks-at-woman-in-sunset.jpg",
+				"imgLandscapeAlt" : "mountain and lake",
+				"headline" : "White Linen Button-Down Shirt",
+				"excerpt" : "This shirt is for you if you want to dress up but stay comfortable",
+				"label" : "$80"
+
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/man-sits-and-laughs.jpg",
+				"imgLandscapeAlt" : "red mountains",
+				"headline" : "Dark Gray Denim Jeans",
+				"excerpt" : "These sturdy denim jeans are made to last whether you're working or playing",
+				"label" : "$90"
+			},
+			{
+				"styleModifier" : "",
+				"url" : "link.pages-category-detail",
+				"imgLandscapeSrc" : "../../../images/man-on-iphone.jpg",
+				"imgLandscapeAlt" : "road with trees",
+				"headline" : "Lightweight Gray Long-Sleeved Shirt",
+				"excerpt" : "Great for active wear or a casual walk on the town ",
+				"label" : "$250"
+			}
+		]
+	},
+	"paginationList" : [
+        {
+			"itemModifier" : "is-disabled",
+            "number" : "Prev"
+        },
+        {
+			"itemModifier" : "is-active",
+            "number" : "1"
+        },
+        {
+			"url" : "link.pages-category-men-page-2",
+            "number" : "2"
+        },
+        {
+			"url" :"link.pages-category-men-page-2",
+            "number" : "Next"
+        }
+    ]
+}

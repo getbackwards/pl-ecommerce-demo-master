@@ -1,0 +1,21 @@
+/* --------------------------------------- *\
+ * Base stuff
+ * --------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font: 125% / 1.5 arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0 1rem;
+}
+
+* {
+    box-sizing: border-box;
+}

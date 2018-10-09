@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdf4ed3e-226f-44cd-bcfd-d7991a641bc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/team-stats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/decline-accept-everything" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/squareNums.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +26,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
+          <entry key="decline-accept-everything" value="1" />
           <entry key="html" value="1" />
-          <entry key="js" value="3" />
+          <entry key="js" value="4" />
           <entry key="json" value="1" />
           <entry key="ts" value="2" />
         </counts>
@@ -35,15 +38,16 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="3" />
+          <entry key="JavaScript" value="5" />
           <entry key="TypeScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="20" />
+          <entry key="decline-accept-everything" value="6" />
           <entry key="html" value="60" />
-          <entry key="js" value="2412" />
+          <entry key="js" value="2413" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
@@ -52,7 +56,7 @@
           <entry key="CSS" value="20" />
           <entry key="HTML" value="60" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="2412" />
+          <entry key="JavaScript" value="2419" />
         </counts>
       </usages-collector>
     </session>
@@ -73,11 +77,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/team-stats.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="352">
               <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/decline-accept-everything">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="19" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/squareNums.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -95,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/js/scratch-pad.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -145,6 +167,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/mini-linter.js" />
         <option value="$PROJECT_DIR$/js/team-stats.js" />
+        <option value="$PROJECT_DIR$/js/decline-accept-everything" />
+        <option value="$PROJECT_DIR$/js/square.js" />
+        <option value="$PROJECT_DIR$/js/squareNums.js" />
       </list>
     </option>
   </component>
@@ -163,10 +188,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
-    <option name="y" value="82" />
-    <option name="width" value="1550" />
-    <option name="height" value="783" />
+    <option name="x" value="101" />
+    <option name="y" value="72" />
+    <option name="width" value="1348" />
+    <option name="height" value="868" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -235,23 +260,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538277943095</updated>
-      <workItem from="1538277944571" duration="23306000" />
+      <workItem from="1538277944571" duration="24912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23306000" />
+    <option name="totallyTimeSpent" value="24912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="82" width="1550" height="783" extended-state="0" />
+    <frame x="101" y="72" width="1348" height="868" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23152387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28108516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32942554" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.38494936" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3993994" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -285,7 +310,7 @@
     <entry file="file://$PROJECT_DIR$/js/scratch-pad.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -312,8 +337,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/team-stats.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="352">
           <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/decline-accept-everything">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/squareNums.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

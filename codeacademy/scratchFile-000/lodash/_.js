@@ -1,5 +1,5 @@
 const _ = {
-    clamp (lower, number, upper) {
+    clamp (number, lower, upper) {
         let lowerBound = Math.max(lower, number);
         let upperBound = Math.min(number, upper);
 
@@ -24,9 +24,9 @@ const _ = {
     }
 };
 
-console.log(_.clamp(5, 3, 15));
-console.log(_.clamp(5, 7, 15));
-console.log(_.clamp(5, 17, 15));
+console.log(_.clamp(3, 5, 15));
+console.log(_.clamp(7, 5, 15));
+console.log(_.clamp(17, 5, 15));
 
 // lower - this works
 // console.log(_.clamp(5, 3));

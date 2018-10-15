@@ -1,7 +1,10 @@
-const _ = {};
+const _ = {
 
+    const clamp = (number, lower, upper) => {
 
+    }
 
+};
 
 // Do not write or modify code below this line.
 module.exports = _;

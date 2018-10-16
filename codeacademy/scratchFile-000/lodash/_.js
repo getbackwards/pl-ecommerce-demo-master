@@ -4,6 +4,24 @@ const _ = {
         let clampedValue = Math.min(lowerClampedValue, upper);
 
         return clampedValue;
+    },
+
+    inRange (number, startValue, endValue) {
+        if (endValue === undefined) {
+            endValue = startValue;
+            startValue = 0;
+        }
+
+        if (startValue > endValue) {
+            const tempEndValue = endValue;
+            endValue = startValue;
+            startValue = tempEndValue;
+        }
+
+        if (number <= endValue && number > startValue) {
+            return true;
+        }
+        return false;
     }
 };
 

@@ -24,7 +24,8 @@ const _ = {
     },
 
     words (string) {
-        return string.split(' ');
+        let words = string.split(' ');
+        return words;
     }
 };
 

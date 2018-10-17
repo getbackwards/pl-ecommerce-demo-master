@@ -21,6 +21,11 @@ const _ = {
         let isInRange = number <= end && number > start;
 
         return isInRange;
+    },
+
+    words (string) {
+        let words = string.split(' ');
+        return words;
     }
 };
 

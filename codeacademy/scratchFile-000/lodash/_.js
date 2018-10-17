@@ -21,13 +21,21 @@ const _ = {
         let isInRange = number <= end && number > start;
 
         return isInRange;
+    },
+
+    words (string) {
+        return string.split(' ');
     }
 };
 
+// words tests
+let wordsString = "This solution probably has the most potential solutions of the methods we have implemented thus far.";
+console.log(_.words(wordsString));
+
 // inRange tests
-console.log(_.inRange(3, 5, 15));
-console.log(_.inRange(7, 5, 15));
-console.log(_.inRange(17, 5, 15));
+// console.log(_.inRange(3, 5, 15));
+// console.log(_.inRange(7, 5, 15));
+// console.log(_.inRange(17, 5, 15));
 
 // clamp tests
 // console.log(_.clamp(3, 5, 15));

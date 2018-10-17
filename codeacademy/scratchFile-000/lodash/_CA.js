@@ -30,9 +30,9 @@ const _ = {
 };
 
 // inRange tests
-console.log(_.inRange(3, 5, 15));
-console.log(_.inRange(7, 5, 15));
-console.log(_.inRange(17, 5, 15));
+// console.log(_.inRange(3, 5, 15));
+// console.log(_.inRange(7, 5, 15));
+// console.log(_.inRange(17, 5, 15));
 
 // clamp tests
 // console.log(_.clamp(3, 5, 15));

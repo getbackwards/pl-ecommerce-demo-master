@@ -26,8 +26,22 @@ const _ = {
 
     words (string) {
         return string.split(' ');
+    },
+
+    pad (string, length) {
+        output = [string, length]
+        return output;
+        // if ((length % 2) = 0) {
+        //
+        // }
+
     }
 };
+
+// pad tests
+console.log(_.pad('hi', 2));
+console.log(_.pad('hello', 3));
+console.log(_.pad('welcome back', 5));
 
 // words tests
 // let wordsString = "This solution probably has the most potential solutions of the methods we have implemented thus far.";

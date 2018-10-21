@@ -26,8 +26,38 @@ const _ = {
 
     words (string) {
         return string.split(' ');
+    },
+
+    pad (string, length) {
+        if (string.length > length) {
+            return string;
+        }
+
+        let paddingStart = Math.floor((length - string.length) / 2);
+        let paddingEnd = length - (string.length + paddingStart);
+        let padStart = '';
+        let padEnd = '';
+
+        for (let i = 0; i < paddingStart; i++) {
+            padStart += ' ';
+        }
+
+        for (let j = 0; j < paddingEnd; j++) {
+            padEnd += ' ';
+        }
+
+        let paddedString = padStart + string + padEnd;
+        
+        return paddedString;
     }
 };
+
+// pad tests
+// _.pad('hi', 7);
+console.log(_.pad('hi', 7));
+//console.log(_.pad('hi', 1));
+//console.log(_.pad('hello', 3));
+//console.log(_.pad('welcome back', 10));
 
 // words tests
 // let wordsString = "This solution probably has the most potential solutions of the methods we have implemented thus far.";

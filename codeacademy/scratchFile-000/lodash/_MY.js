@@ -49,12 +49,32 @@ const _ = {
         let paddedString = padStart + string + padEnd;
         
         return paddedString;
+    },
+
+    has (object, key) {
+        if (key in object) {
+            return true;
+        }
+
+        return false;
     }
 };
 
+// has tests
+let object = {
+    'a': {
+        'b': 2
+        }
+    };
+
+let car = {type:"Fiat", model:"500", color:"white"};
+
+console.log(_.has(object, 'a'));
+console.log(_.has(car, 'type'));
+
 // pad tests
 // _.pad('hi', 7);
-console.log(_.pad('hi', 7));
+// console.log(_.pad('hi', 7));
 //console.log(_.pad('hi', 1));
 //console.log(_.pad('hello', 3));
 //console.log(_.pad('welcome back', 10));

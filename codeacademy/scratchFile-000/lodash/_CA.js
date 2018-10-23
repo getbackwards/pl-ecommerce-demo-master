@@ -38,12 +38,43 @@ const _ = {
         let paddedString = ' '.repeat(startPaddingLength) + string + ' '.repeat(endPaddingLength);
         
         return paddedString;
+    },
+
+    has (object, key) {
+       let hasValue = object[key] !== undefined;
+       return hasValue;
+    },
+
+    invert (object) {
+        let invertedObject = {};
+        for (key in object) {
+            let originalValue = object[key];
+            invertedObject[originalValue] = key;
+        }
+
+        return invertedObject;
     }
 };
 
+// invert tests
+let testObj = {A : 1, B : 2, C : 3, D : 4};
+console.log(_.invert(testObj));
+
+// has tests
+// let object = {
+//     'a': {
+//         'b': 2
+//     }
+// };
+//
+// let car = {type:"Fiat", model:"500", color:"white"};
+//
+// console.log(_.has(object, 'b'));
+// console.log(_.has(car, 'model'));
+
 // pad tests
 // _.pad('hi', 7);
-console.log(_.pad('hi', 7));
+// console.log(_.pad('hi', 7));
 
 // inRange tests
 // console.log(_.inRange(3, 5, 15));

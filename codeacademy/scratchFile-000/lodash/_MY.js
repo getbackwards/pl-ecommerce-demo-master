@@ -52,25 +52,41 @@ const _ = {
     },
 
     has (object, key) {
+        // let objKey = object.key !== null || void || NaN;
+        // return objKey;
+
         if (key in object) {
             return true;
         }
 
         return false;
+    },
+
+    invert (object) {
+        let invertedObject = {};
+        for (key in object) {
+            invertedObject[object[key]] = key;
+        }
+
+        return invertedObject;
     }
 };
 
+// invert tests
+let testObj = {A : 1, B : 2, C : 3, D : 4};
+console.log(_.invert(testObj));
+
 // has tests
-let object = {
-    'a': {
-        'b': 2
-        }
-    };
-
-let car = {type:"Fiat", model:"500", color:"white"};
-
-console.log(_.has(object, 'a'));
-console.log(_.has(car, 'type'));
+// let object = {
+//     'a': {
+//         'b': 2
+//         }
+//     };
+//
+// let car = {type:"Fiat", model:"500", color:"white"};
+//
+// console.log(_.has(object, 'a'));
+// console.log(_.has(car, 'type'));
 
 // pad tests
 // _.pad('hi', 7);

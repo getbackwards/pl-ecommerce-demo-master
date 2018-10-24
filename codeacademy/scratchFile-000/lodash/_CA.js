@@ -5,7 +5,7 @@ const _ = {
 
         return clampedValue;
     },
-    
+
     inRange (number, start, end) {
         if (end === undefined) {
             end = start;

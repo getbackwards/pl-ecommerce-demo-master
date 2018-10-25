@@ -69,12 +69,53 @@ const _ = {
         }
 
         return invertedObject;
+    },
+
+    // findKey (object, predicatefFunction) {
+    //     for(key in object) {
+    //         predicatefFunction(object[key]);
+    //     }
+    // }
+
+    findKey (object, func) {
+        for (key in object) {
+            console.log(object[key]);
+            func.object[key];
+
+            if (object[key] === true) {
+                return object[key];
+            }
+
+            return undefined;
+        }
     }
 };
 
+// findKey tests
+var users = {
+    'barney':  { 'age': 36, 'active': true },
+    'fred':    { 'age': 40, 'active': false },
+    'pebbles': { 'age': 1,  'active': true }
+};
+
+console.log(_.findKey(users, function(o) { return o.age < 40; }));
+// => 'barney' (iteration order is not guaranteed)
+
+// The `_.matches` iteratee shorthand.
+console.log(_.findKey(users, { 'age': 1, 'active': true }));
+// => 'pebbles'
+
+// The `_.matchesProperty` iteratee shorthand.
+console.log(_.findKey(users, ['active', false]));
+// => 'fred'
+
+// The `_.property` iteratee shorthand.
+console.log(_.findKey(users, 'active'));
+// => 'barney'
+
 // invert tests
-let testObj = {A : 1, B : 2, C : 3, D : 4};
-console.log(_.invert(testObj));
+// let testObj = {A : 1, B : 2, C : 3, D : 4};
+// console.log(_.invert(testObj));
 
 // has tests
 // let object = {

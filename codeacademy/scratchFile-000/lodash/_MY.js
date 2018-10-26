@@ -78,8 +78,9 @@ const _ = {
     // }
 
     findKey (object, func) {
+        // console.log(object);
         for (key in object) {
-            console.log(object[key]);
+            // console.log(object[key]);
             func.object[key];
 
             if (object[key] === true) {
@@ -92,25 +93,30 @@ const _ = {
 };
 
 // findKey tests
-var users = {
+let users = {
     'barney':  { 'age': 36, 'active': true },
     'fred':    { 'age': 40, 'active': false },
     'pebbles': { 'age': 1,  'active': true }
 };
 
+let car = {type:"Fiat", model:"500", color:"white"};
+
+// console.log(_.findKey(car, function(o) { return o.type === "Fiat"; }))
+
+// console.log(_.findKey(users.barney, function(o) { return o.barney.age < 40; }));
 console.log(_.findKey(users, function(o) { return o.age < 40; }));
 // => 'barney' (iteration order is not guaranteed)
 
 // The `_.matches` iteratee shorthand.
-console.log(_.findKey(users, { 'age': 1, 'active': true }));
+//console.log(_.findKey(users, { 'age': 1, 'active': true }));
 // => 'pebbles'
 
 // The `_.matchesProperty` iteratee shorthand.
-console.log(_.findKey(users, ['active', false]));
+//console.log(_.findKey(users, ['active', false]));
 // => 'fred'
 
 // The `_.property` iteratee shorthand.
-console.log(_.findKey(users, 'active'));
+//console.log(_.findKey(users, 'active'));
 // => 'barney'
 
 // invert tests

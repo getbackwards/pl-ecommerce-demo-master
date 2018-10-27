@@ -67,8 +67,55 @@ const _ = {
         }
 
         return undefined;
+    },
+
+    drop (array, n) {
+        if (n === undefined) {
+            n = 1;
+        }
+
+        let droppedArray = array.slice(n);
+
+        return droppedArray;
+    },
+
+    dropWhile (array, predicate) {
+        let dropNumber = array.findIndex((element, index) => {
+            return !predicate(element, index);
+        });
+
+        let droppedArray = this.drop(array, dropNumber);
+
+        return droppedArray;
+    },
+
+    chunk (array, size) {
+        //test stuff
+        array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        size = 3;
+        console.log(size);
+
+        if (size = undefined) {
+            size = 1;
+        }
+
+        let arrayChunks = [];
+
+        for (let i = 0; i < array.length; i ++) {
+            // console.log(size);
+            console.log(array[i]);
+            let arrayChunk = array.slice(i);
+
+            arrayChunks.push(arrayChunk);
+        }
+
+        return arrayChunks;
     }
 };
 
+let chunkTestArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+_.chunk(chunkTestArray, 3);
+// console.log(_.chunk(chunkTestArray, 3));
 // Do not write or modify code below this line.
 module.exports = _;

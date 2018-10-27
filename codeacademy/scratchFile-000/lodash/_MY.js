@@ -83,22 +83,88 @@ const _ = {
         }
 
         return undefined;
+    },
+
+    drop (array, number) {
+        let dropArray = [];
+
+        if (number === undefined) {
+            dropArray = array.slice(1);
+            return dropArray;
+        }
+
+        dropArray = array.slice(number);
+
+        return dropArray;
+    },
+
+    dropWhile (array, predicate) {
+        let dropNumber = array.findIndex((element, index) => {
+            return !predicate(element, index);
+        });
+
+        let droppedArray = this.drop(array, dropNumber);
+
+        return droppedArray;
+    },
+
+    chunk (array, size) {
+        if (size = undefined) {
+            size = 1;
+        }
+
+        let chunkedArray = [];
+
+        for (let i = 0; i < array.length; i + size) {
+            chunkedArray.push(array.slice(size));
+        }
+
+        return chunkedArray;
     }
 };
 
-// findKey tests
 let users = {
     'barney':  { 'age': 36, 'active': true },
     'fred':    { 'age': 40, 'active': false },
     'pebbles': { 'age': 1,  'active': true }
 };
 
-let car = {type:"Fiat", model:"500", color:"white"};
+// dropWhile tests
+// console.log(_.dropWhile(users, function(o) { return !o.active; }));
+// => objects for ['pebbles']
+
+// The `_.matches` iteratee shorthand.
+// console.log(_.dropWhile(users, { 'user': 'barney', 'active': false }));
+// => objects for ['fred', 'pebbles']
+
+// The `_.matchesProperty` iteratee shorthand.
+// console.log(_.dropWhile(users, ['active', false]));
+// => objects for ['pebbles']
+
+// The `_.property` iteratee shorthand.
+// console.log(_.dropWhile(users, 'active'));
+// => objects for ['barney', 'fred', 'pebbles']
+
+// drop tests
+// console.log(_.drop([1, 2, 3]));
+// => [2, 3]
+
+// console.log(_.drop([1, 2, 3], 2));
+// => [3]
+
+// console.log(_.drop([1, 2, 3], 5));
+// => []
+
+// console.log(_.drop([1, 2, 3], 0));
+// => [1, 2, 3]
+
+// findKey tests
+// let car = {type:"Fiat", model:"500", color:"white"};
 
 // console.log(_.findKey(car, function(o) { return o.type === "Fiat"; }))
 
 // console.log(_.findKey(users.barney, function(o) { return o.barney.age < 40; }));
-console.log(_.findKey(users, function(o) { return o.age < 40; }));
+// console.log(_.findKey(users, function(o) { return o.age < 40; }));
 // => 'barney' (iteration order is not guaranteed)
 
 // The `_.matches` iteratee shorthand.

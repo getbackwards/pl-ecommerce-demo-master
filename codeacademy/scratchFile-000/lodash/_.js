@@ -61,7 +61,7 @@ const _ = {
             let predicateReturnValue = predicate(value);
 
             if (predicateReturnValue === true) {
-                return object[key];
+                return key;
             }
 
         }

@@ -87,8 +87,27 @@ const _ = {
         let droppedArray = this.drop(array, dropNumber);
 
         return droppedArray;
+    },
+
+    chunk (array, size) {
+        if (size === undefined) {
+            size = 1;
+        }
+
+        let arrayChunks = [];
+
+        for (let i = 0; i < array.length; i += size) {
+            let arrayChunk = array.slice(i, i + size);
+            arrayChunks.push(arrayChunk);
+        }
+
+        return arrayChunks;
     }
 };
+
+let chunkTestArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+console.log(_.chunk(chunkTestArray, 3));
 
 // findKey tests
 // let users = {

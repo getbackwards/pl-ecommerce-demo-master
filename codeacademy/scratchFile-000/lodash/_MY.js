@@ -109,19 +109,24 @@ const _ = {
     },
 
     chunk (array, size) {
-        if (size = undefined) {
+        if (size === undefined) {
             size = 1;
         }
 
-        let chunkedArray = [];
+        let arrayChunks = [];
 
-        for (let i = 0; i < array.length; i + size) {
-            chunkedArray.push(array.slice(size));
+        for (let i = 0; i < array.length; i += size) {
+            let arrayChunk = array.slice(i, i + size);
+            arrayChunks.push(arrayChunk);
         }
 
-        return chunkedArray;
+        return arrayChunks;
     }
 };
+
+let chunkTestArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+console.log(_.chunk(chunkTestArray, 3));
 
 let users = {
     'barney':  { 'age': 36, 'active': true },
